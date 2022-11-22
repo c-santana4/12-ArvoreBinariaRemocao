@@ -274,6 +274,7 @@ void removerElementoArvore(NO* no, int valor) {
 	            pai->dir = atual->esq;
 	        }
 	    }
+		free(atual);
 	    return;
 	}
 
